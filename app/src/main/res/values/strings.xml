@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Spinner</string>
+    <string name="num1">Valor 1</string>
+    <string name="num2">Valor 2</string>
+    <string name="sum">Suma</string>
+    <string name="rest">Resta</string>
+    <string name="mult">Multiplicación</string>
+    <string name="divi">División</string>
+    <string name="result">Resultado:</string>
+    <string-array name="item">"
+        <item> Seleccione una opción </item>
+        <item>Suma</item>
+        <item>Resta</item>
+        <item>Multiplicación</item>
+        <item>División</item>
+    </string-array>
+</resources>
