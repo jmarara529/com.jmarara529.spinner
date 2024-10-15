@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
-                resultado.setText("");
+                resultado.setText(R.string.result);
             }
         });
 
@@ -76,12 +76,12 @@ public class MainActivity extends AppCompatActivity {
 
     private void calcularResultado(EditText textNumber1, EditText textNumber2, TextView resultado) {
         if (position == 0) {
-            resultado.setText("");
+            resultado.setText(R.string.result);
             return;
         }
 
         if (textNumber1.getText().toString().isEmpty() || textNumber2.getText().toString().isEmpty()) {
-            resultado.setText("Por favor, ingresa ambos números.");
+            resultado.setText(R.string.nonum);
             return;
         }
 

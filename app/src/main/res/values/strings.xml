@@ -14,4 +14,5 @@
         <item>Multiplicación</item>
         <item>División</item>
     </string-array>
+    <string name="nonum">Por favor, ingresa ambos números.</string>
 </resources>
